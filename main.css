@@ -1,0 +1,16 @@
+body {
+    font-family: Arial;
+    background-color:rgb(60, 60, 60);
+    color: white;
+}
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding:10px;
+    color: white;
+  }
+  a:hover {
+    background-color:orange;
+    color: white;
+  }
