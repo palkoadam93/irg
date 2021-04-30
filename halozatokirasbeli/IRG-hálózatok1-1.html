@@ -1,18 +1,332 @@
 <html>
 <head>
-<title></title>
+<title>IRG Hálózatok 1 írásbeli</title>
 </head>
 <body>
 
-<h1></h1>
+<h1>Informatikai rendszerüzemeltető - Hálózatok 1 írásbeli</h1>
 
-<h3></h3>
-
+<h3>1. Mi a WAN és a LAN között a legfőbb különbség a kapcsolatokat tekintve?</h3>
 <ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>A LAN esetében nem kell közvetítőeszköz, a gépek a mai hálózatokban közvetlenül egymáshoz kapcsolódnak, minden gép közvetlenül minden másikhoz.</li>
+<li>A WAN kapcsolatok sokkal olcsóbban üzemeltethetőek, mint a LAN kapcsolatok.</li>
+<li>A WAN kapcsolatoknak jellemzően nagyobb a sávszélessége, minta LAN kapcsolatoknak.</li>
+<li>A LAN elsősorban végberendezéseket kapcsol össze kis földrajzi területen, míg a WAN hálózatokat köt össze nagyobb területre kiterjedően.</li>
+</ul>
+
+<h3>2. Milyen eszközök teszik lehetővé a hálózathoz csatlakozást egy korszerű hálózatban? (Két helyes válasz van.)</h3>
+<ul>
+<li>Access Point.</li>
+<li>Modem.</li>
+<li>Router.</li>
+<li>Switch.</li>
+</ul>
+
+<h3>3. A forgalomirányító (router) hol keres információt arra vonatkozóan, hogy egy adott csomagot melyik interfészén küldje ki?</h3>
+<ul>
+<li>Az aktív konfigurációban.</li>
+<li>Az indító konfigurációban.</li>
+<li>Az ARP táblában.</li>
+<li>Az irányító táblában.</li>
+</ul>
+
+<h3>4. Mely portokon keresztül tudunk egy forgalomirányítót konfigurálni akkor is, ha minden korábbi beállítása törlődik? (Két helyes válasz van.)</h3>
+<ul>
+<li>Ethernet</li>
+<li>Soros</li>
+<li>AUX</li>
+<li>Konzol</li>
+</ul>
+
+<h3>5. Milyen kábelre van szükségünk egy forgalomirányító "sávon kívüli" konfigurálásához?</h3>
+<ul>
+<li>Egyenes kötésű kábel.</li>
+<li>Keresztkötésű kábel.</li>
+<li>Konzolkábel.</li>
+<li>Routercsatlakoztató kábel.</li>
+</ul>
+
+<h3>6. Mi az első, hasznos információt tartalmazó mező egy Ethernet keretben?</h3>
+<ul>
+<li>FCS</li>
+<li>Forrás MAC cím.</li>
+<li>Cél MAC cím.</li>
+<li>Típus.</li>
+</ul>
+
+<h3>7. Melyik TCP/IP modellréteg gondoskodik megbízható adattovábbításról, ha arra van szükség?</h3>
+<ul>
+<li>Adatkapcsolati.</li>
+<li>Szállítási.</li>
+<li>Alkalmazási.</li>
+<li>Internet.</li>
+</ul>
+
+<h3>8. Melyik TCP/IP protokollt használjuk gyors, egyszerű fájlátvitelre (pl. konfiguráció lementésére hálózati eszközről)?</h3>
+<ul>
+<li>POP3</li>
+<li>IMAP</li>
+<li>UDP</li>
+<li>TFTP</li>
+</ul>
+
+<h3>9. Melyik TCP/IP protokoll gondoskodik pl. az Ethernet esetében a 3. és a 2. rétegbeli címek összekapcsolásáról?</h3>
+<ul>
+<li>DNS</li>
+<li>POP3</li>
+<li>ARP</li>
+<li>SNMP</li>
+</ul>
+
+<h3>10. Milyen IP-címmel rendelkező PC tud közvetlenül (forgalomirányító nélkül) kommunikálni a 172.16.10.61/27 című PC-vel? (Feltéve, hogy a maszk ott is helyes.)</h3>
+<ul>
+<li>172.16.10.1</li>
+<li>172.16.10.30</li>
+<li>172.16.10.40</li>
+<li>172.16.10.70</li>
+</ul>
+
+<h3>11. Melyik cím-maszk páros helyes egy PC-n, ha az átjáró beállítása 172.16.10.1/24?</h3>
+<ul>
+<li>172.16.0.0 255.255.0.0</li>
+<li>172.16.10.0 255.255.255.0</li>
+<li>172.16.10.2 255.255.0.0</li>
+<li>127.16.10.2 255.255.255.0</li>
+<li>172.16.10.10 255.255.255.0</li>
+</ul>
+
+<h3>12. Hány bitesek az IPv6-os címek?</h3>
+<ul>
+<li>32</li>
+<li>64</li>
+<li>96</li>
+<li>128</li>
+<li>256</li>
+</ul>
+
+<h3>13. Az IPv6-csomag fejléce tartalmaz IPv4 TTL (vagy annak megfelelő) értéket?</h3>
+<ul>
+<li>Nem, IPv6 esetében nincs szükség ilyen funkcióra.</li>
+<li>Igen, ugyanúgy hívják a mezőt.</li>
+<li>Igen, egyszerűen Live-nak hívják a mezőt.</li>
+<li>Igen, HopLimit a mező neve.</li>
+</ul>
+
+<h3>14. Milyen címtípus nincs az IPv6-os címek esetében?</h3>
+<ul>
+<li>Unicast.</li>
+<li>Multicast.</li>
+<li>Broadcast.</li>
+<li>Anycast.</li>
+</ul>
+
+<h3>15. Milyen módokat, lehetőségeket lehet jelszóval védeni a forgalomirányítókon? (Két helyes válasz van.)</h3>
+<ul>
+<li>Privilegizált exec mód.</li>
+<li>Vonalak elérése.</li>
+<li>Interfészek elérése.</li>
+<li>Globális konfigurációs mód.</li>
+</ul>
+
+<h3>16. Áramszünet esetén (ha nincs UPS) melyik információ veszik el az alábbiak közül egy forgalomirányító esetében?</h3>
+<ul>
+<li>Az interfészek IP-címei.</li>
+<li>Az indító konfiguráció.</li>
+<li>Az irányítótábla.</li>
+<li>Az irányító protokoll beállításai.</li>
+</ul>
+
+<h3>17. Mit hasonlít össze mivel egy kapcsoló, hogy eldöntse egy keret továbbításának irányát?</h3>
+<ul>
+<li>A keret forrás MAC címét az ARP táblával.</li>
+<li>A keret cél MAC címét az ARP táblával.</li>
+<li>A keret cél MAC címét a kapcsolótáblával.</li>
+<li>A keret forrás MAC címét a kapcsolótáblával.</li>
+</ul>
+
+<h3>18. Az alábbi ábrán lévő forgalomirányítók mindegyikének minden interfésze megfelelően konfigurált és működőképes. Ha a „B” forgalomirányítón kézzel állítjuk be a távoli hálózatok felé vezető útvonalakat (mindegyiket felvesszük), az „A” és „C” forgalomirányítókon pedig RIP protokollt állítunk be minden szükséges connected hálózat felvételével, akkor mi lesz ennek a következménye?</h3>
+<ul>
+<li>A „B” routerről nem tudjuk pingelni az „A” router soros interfészét.</li>
+<li>A „B” routerről nem tudjuk pingelni a „C” router LAN interfészeit.</li>
+<li>A „C” routerről tudjuk pingelni az „A” router soros interfészét.</li>
+<li>Az „A” routerről nem fogjuk tudni pingelni a „C” router LAN interfészeit.</li>
+</ul>
+
+<h3>19. Melyik osztályos irányító protokoll az alábbiak közül?</h3>
+<ul>
+<li>EIGRP</li>
+<li>RIP</li>
+<li>OSPF</li>
+<li>RIPv2</li>
+</ul>
+
+<h3>20. Az EIGRP konfigurálásakor az alábbiak közül mit kell megadnunk, hogy a szomszédsági viszony kiépülhessen? (Két helyes válasz van.)</h3>
+<ul>
+<li>Minden hálózatot minden forgalomirányítón fel kell vennünk.</li>
+<li>A szomszédokon fel kell vennünk a köztes hálózatot is.</li>
+<li>Azonosnak kell lennie az AS számnak a szomszédokon.</li>
+<li>Fel kell vennünk a szomszéd összes közvetlenül csatlakozó hálózatát.</li>
+</ul>
+
+<h3>21. Egy soros interfész esetében mi lehet az oka a serial1 is up, line protocol is down állapotnak? (Két helyes válasz van.)</h3>
+<ul>
+<li>Nem adtuk ki a no shutdown parancsot az adott interfészre.</li>
+<li>A DCE kábelvégen nincs órajel.</li>
+<li>Szakadt a kábel.</li>
+<li>Nem egyezik meg a két végen a beágyazás.</li>
+</ul>
+
+<h3>22. Egy normál IP ACL mi alapján dönt?</h3>
+<ul>
+<li>A csomag cél IP-címe alapján.</li>
+<li>A csomag forrás IP-címe alapján.</li>
+<li>A keret forrás MAC címe alapján.</li>
+<li>A keret cél MAC címe alapján.</li>
+</ul>
+
+<h3>23. Mi egyezik meg a RIP és a RIPv2 esetében? (Két helyes válasz van.)</h3>
+<ul>
+<li>Mindkettő osztályos protokoll.</li>
+<li>Mindkettő osztály nélküli protokoll.</li>
+<li>Mindkettő távolságvektor alapú protokoll.</li>
+<li>Azonos metrikát használnak.</li>
+</ul>
+
+<h3>24. Az EIGRP milyen metrikát használ alapesetben?</h3>
+<ul>
+<li>A sávszélességből és a késleltetésből számolja.</li>
+<li>Csak a sávszélességet veszi alapul.</li>
+<li>Költséget (cost) számol.</li>
+<li>Ugrásszám alapján dönt.</li>
+</ul>
+
+<h3>25. Miért érdemes a PortFast parancsot kiadni a PC-knek a kapcsolóportokon?</h3>
+<ul>
+<li>Ekkor a port gyorsabban tanul.</li>
+<li>Ezzel lehetővé tesszük, hogy gyorsabb PC-k is megfelelően tudjanak kereteket küldeni és fogadni.</li>
+<li>A port azonnal továbbító állapotra vált, és így pl. a DHCP kérések időben továbbításra kerülnek.</li>
+<li>Összevonásra kerül a figyelő és a tanuló állapot, ezzel felére rövidül a továbbító állapot elérése.</li>
+</ul>
+
+<h3>26. Mi az előnye a rapid spanning tree protokollnak?</h3>
+<ul>
+<li>Minden adat számára külön útvonalat biztosít, ezáltal terheléselosztást (load sharing) tesz lehetővé.</li>
+<li>Gyorsabb PC-k kapcsolódását teszi lehetővé.</li>
+<li>Több fizikai kapcsolat esetén több egyidejűen használható fizikai útvonalat engedélyez.</li>
+<li>Gyorsan konvergál.</li>
+</ul>
+
+<h3>27. Milyen módon azonosítja a 802.1q protokoll a VLAN-t a keretben?</h3>
+<ul>
+<li>Beágyazza az Ethernet keretet egy új keretbe, az új előtagba azonosítót tesz.</li>
+<li>Beszúr egy értéket az Ethernet keret fejlécébe (tag), ami tartalmazza a VLAN-azonosítót.</li>
+<li>A különböző VLAN-okhoz tartozó kereteket különböző útvonalakon továbbítja.</li>
+<li>A QOS mező értékét igazítja a VLAN-hoz.</li>
+</ul>
+
+<h3>28. Melyik esetben ad a kapcsoló hibajelzést a trunk kapcsolatok vonatkozásában?</h3>
+<ul>
+<li>Ha az összeköttetés mindkét végét switchport mode trunk paranccsal konfiguráljuk.</li>
+<li>Ha az összekötött portok egyike access, a másik pedig auto módban van.</li>
+<li>Ha az összekötött portok egyikén a nativ vlan az alapértelmezett, a másikon a 99-es.</li>
+<li>Ha az összekötött portok egyike desirable, a másik auto módban van.</li>
+</ul>
+
+<h3>29. Melyek érvényes rövidítési eljárások az IPv6-os címek írásmódjánál? (Két helyes válasz van.)</h3>
+<ul>
+<li>Elhagyhatjuk a hextetteken belüli bármelyik helyen lévő 0-kat.</li>
+<li>Akárhány csupa nullás hextettünk van, egyiket sem kell kiírni.</li>
+<li>A csupa 0-t tartalmazó szomszédos hextettek az egész címben egy helyen elhagyhatóak, helyettük :: írandó.</li>
+<li>Elhagyhatjuk a hextetteken belüli vezető 0-kat.</li>
+</ul>
+
+<h3>30. Melyik jelent biztonságos hitelesítést PPP esetén?</h3>
+<ul>
+<li>MDX</li>
+<li>CHAP</li>
+<li>PAP</li>
+<li>NCP</li>
+</ul>
+
+<h3>31. Mit jelent a Frame Relay esetében egy 901-es DLCI?</h3>
+<ul>
+<li>Normál virtuális áramkör-azonosítót.</li>
+<li>Cisco LMI-t.</li>
+<li>ANSI LMI-t.</li>
+<li>Multicast LMI-t.</li>
+</ul>
+
+<h3>32. Melyik WLAN szabvány képes maximum 54 Mbps sávszélesség megvalósítására az alábbiak közül? (Két helyes válasz van.)</h3>
+<ul>
+<li>802.11a</li>
+<li>802.11b</li>
+<li>802.11c</li>
+<li>802.11g</li>
+<li>Mindegyik.</li>
+</ul>
+
+<h3>33. WLAN-ban melyik hitelesítési eljárás használata a legkevésbé javasolt manapság?</h3>
+<ul>
+<li>WEP</li>
+<li>WPA-TKIP</li>
+<li>WPA2-AES</li>
+<li>WVIP</li>
+</ul>
+
+<h3>34. Miért nem nyújt elegendő biztonságot, ha MAC cím szűrést állítunk be a WLAN hálózatokban?</h3>
+<ul>
+<li>Mert az ISR úgyis alapértelmezett értéket használ.</li>
+<li>Az élő kommunikációkból „kiszimatolható”, és kalóz kliensen beállítható egy érvényes MAC cím.</li>
+<li>Könnyebb hozzáférni a hálózathoz, mert ilyenkor bármilyen cím használható.</li>
+<li>Mert ilyenkor a gyártó oldalán látható, hogy mit kell beállítani a kliensen.</li>
+</ul>
+
+<h3>35. Milyen tűzfalmegoldások léteznek az alábbiak közül? (Két helyes válasz van.)</h3>
+<ul>
+<li>SPI tűzfal.</li>
+<li>Hardveres tűzfal.</li>
+<li>PPS tűzfal.</li>
+<li>IPS tűzfal.</li>
+</ul>
+
+<h3>36. Milyen módszereket alkalmaz a VPN? (Két helyes válasz van.)</h3>
+<ul>
+<li>A bizalmasság megvalósítása érdekében titkosít.</li>
+<li>Csak a védendő adatokat titkosítja.</li>
+<li>Hitelesíti a kapcsolat résztvevőit.</li>
+<li>Csak akkor küld adatokat, ha biztos benne, hogy illetéktelenek nem kapcsolódnak a hálózatra.</li>
+</ul>
+
+<h3>37. Melyik javasolt és gyakran használt VPN technológia az alábbiak közül?</h3>
+<ul>
+<li>IPSEC</li>
+<li>PAP</li>
+<li>PPP-CHAP</li>
+<li>LITP</li>
+</ul>
+
+<h3>38. Milyen módon oldható meg egy IP-telefon energiaellátása külön tápegység nélkül?</h3>
+<ul>
+<li>PoE eszközzel.</li>
+<li>PPP eszközzel.</li>
+<li>Nem kell neki táp, az Ethernet technológia biztosítja az energiát.</li>
+<li>Elemet használnak leginkább.</li>
+</ul>
+
+<h3>39. Mire érzékeny a VoIP-kommunikáció?</h3>
+<ul>
+<li>A késleltetés értékére.</li>
+<li>A használt média típusára.</li>
+<li>Az időjárásra.</li>
+<li>A kommunikáló résztvevők eszközének energiaellátási módjára.</li>
+</ul>
+
+<h3>40. Érdemes-e személyes tűzfalat is használni a PC-nken, ha a hálózatunk határán van már egy tűzfal?</h3>
+<ul>
+<li>Nem, mert lassítja a gépünk működését.</li>
+<li>Nem, mert macerás a folytonos frissítgetés.</li>
+<li>Nem, mert minden esetben pénzbe kerül.</li>
+<li>Igen, mert támadás a hálózatunkon belülről is indulhat.</li>
 </ul>
 
 </body>
